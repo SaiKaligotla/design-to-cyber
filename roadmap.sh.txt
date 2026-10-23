@@ -1,0 +1,92 @@
+# Designer to Cybersecurity Transition Roadmap
+## Phase 1: Shared Core Foundations
+### Operating System Internals
+- Windows Architecture & Event Logs
+- Linux CLI & User Administration
+- POSIX File Permissions & Access Control
+- Virtualization & Hypervisor Networking
+
+### Networking & Internet Architecture
+- OSI 7-Layer & TCP/IP Model
+- IPv4 Subnetting & Private Addresses
+- DNS, DHCP, ARP & Packet Routing
+- HTTP, HTTPS, TLS & Status Codes
+- Common Ports: 22, 53, 80, 443, 3389
+
+### Core Security & Threat Principles
+- CIA Triad: Confidentiality, Integrity, Availability
+- Authentication vs Authorization (AAA)
+- Principle of Least Privilege
+- Threat Modeling with STRIDE
+- Defense in Depth Architecture
+
+## Phase 2: Safe Local Home Lab
+### Hypervisor & Network Isolation
+- VMware Workstation Pro / VirtualBox Setup
+- Host-Only & Internal Software Virtual Switches
+- Zero Physical Router Access Constraint
+- Static IP Assignment on Private Subnets
+
+### Core Hands-on Lab Drills
+- Linux Hardening & Sudoers Configuration
+- SSH Keypair Generation & Password Login Disablement
+- Host Firewall Configuration with UFW / Firewalld
+- Automated Backup & Tarball Integrity Verification
+- Log Inspection via Systemd Journal & Event Viewer
+
+## Phase 3: Specialization Branches
+### Security UX & Human Factors
+- Usable Security & Warning Design
+- Passkeys, FIDO2 & WebAuthn Flows
+- Reducing Authentication Friction & MFA Fatigue
+- Privacy by Design & Consent Architecture
+- User Research on Security Mental Models
+
+### Web & Application Security
+- OWASP Top 10 Web Vulnerabilities
+- PortSwigger Web Security Academy Labs
+- Burp Suite Interception & HTTP Analysis
+- Cross-Site Scripting (XSS) & SQL Injection
+- Broken Access Control & Logic Flaws
+- Secure Code Review & Remediation Reports
+
+### GRC, Privacy & Security Awareness
+- India DPDP Act 2023 Implementation
+- ISO/IEC 27001:2022 Framework & Annex A
+- NIST Cybersecurity Framework (CSF 2.0)
+- SOC 2 Type II Trust Services Criteria
+- Security Awareness Campaign & Phishing Training
+
+### SOC Analyst & Blue Team
+- Windows Security Event Log Correlation
+- SIEM Fundamentals: Splunk & Elastic
+- Wazuh Open Source SIEM & Agent Deployment
+- Incident Handling Process (NIST SP 800-61)
+- MITRE ATT&CK TTP Mapping
+
+### Identity & Access Management (IAM)
+- Active Directory & Microsoft Entra ID
+- Single Sign-On (SSO) with SAML & OIDC
+- OAuth 2.0 Authorization Workflows
+- Role-Based Access Control (RBAC) Design
+- Zero Trust Conditional Access Policies
+
+### Cloud Security
+- Shared Responsibility Model
+- AWS & Azure Core Architecture
+- Cloud IAM Policies & Least Privilege
+- S3 Bucket & Security Group Auditing
+- Infrastructure as Code (IaC) Security Scans
+
+## Phase 4: Portfolio & Indian Market Launch
+### Proof of Work Portfolio
+- GitHub Technical Lab Documentation
+- Figma Security UX Case Studies
+- Threat Model & Vulnerability Writeups
+- DPDP Act Compliance Templates
+
+### Resume & Job Search Strategy
+- Translation of Design Skills to Cyber Value
+- LinkedIn Networking with Indian Infosec Community
+- Targeting GCCs, Big 4, Services & Startups
+- Navigating Indian HR Degree Filters
