@@ -42,6 +42,7 @@ A structured, battle-tested career transition roadmap designed for **designers a
 ```
 
 ### Specialized Deep-Dive Guides (Dedicated Manuals)
+* 🧭 **[Choosing Your Track & Compensation Analysis](TRACK_SELECTION_AND_PAY_ANALYSIS.md)**: How to choose which track suits your work style and diagnostic profile, plus detailed 2026 Indian pay ceilings.
 * 📘 **[SOC & Incident Response Deep Dive](SOC_AND_INCIDENT_RESPONSE.md)**: Telemetry pipelines, SIEM correlation, Wazuh + Sysmon local lab, L1 to CISO career progression, and SOC certifications.
 * 🔑 **[IAM & Identity Security Deep Dive](IAM_IDENTITY_ACCESS_MANAGEMENT.md)**: Active Directory, Kerberos/SAML/OIDC, JML lifecycles, Windows Server 2022 AD lab, and IAM career progression.
 * ⚖️ **[GRC & Data Privacy (DPDP Act 2023) Deep Dive](GRC_PRIVACY_COMPLIANCE.md)**: ISO 27001 auditing, India DPDP Act 2023 compliance, RoPA registers, non-conformities, and DPO career progression.
