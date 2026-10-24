@@ -1,123 +1,264 @@
-# Sai Kaligotla: Fast-Track Cybersecurity Transition Blueprint
+# The Designer to Cybersecurity Master Roadmap & Interview Playbook
 
-[![Profile](https://img.shields.io/badge/Profile-IT%20Admin%20%2B%20Security%20Labs%20%2B%20Product%20Design-blue.svg)](#)
-[![Target Hubs](https://img.shields.io/badge/Location-Hyderabad%20%7C%20Bengaluru%20(Open%20to%2024x7%20Shifts)-orange.svg)](#)
-[![Primary Targets](https://img.shields.io/badge/Target%20Roles-IAM%20Analyst%20%7C%20L1%20SOC%20%7C%20Cyber%20Product%20Design-brightgreen.svg)](#)
-[![Budget](https://img.shields.io/badge/Budget-%E2%82%B90%20(Free--First)-purple.svg)](#)
+[![Audience](https://img.shields.io/badge/Audience-Designers%20%26%20Non--Tech%20Switchers-brightgreen.svg)](#)
+[![Focus](https://img.shields.io/badge/Focus-Conquering%20the%20Interview%20Stage-orange.svg)](#)
+[![Market](https://img.shields.io/badge/Market-India%20(SOC%20%7C%20IAM%20%7C%20SecOps)-blue.svg)](#)
+[![Budget](https://img.shields.io/badge/Budget-%E2%82%B90%20(100%25%20Free--First)-purple.svg)](#)
 
-A tactical, reality-based transition roadmap built directly from **Sai Kaligotla's verified resume**, current operational experience at **SansBornes Aerospace**, and existing security lab work (Wazuh, LetsDefend, Google Cybersecurity Certificate).
-
----
-
-## 1. Resume Reality: Your True Market Positioning in India
-
-You are **not** an outsider trying to convince an Indian HR recruiter to take a risk on a non-tech designer. Your resume already gives you an exceptional hybrid profile:
-
-1. **Active IT Admin Experience on Your Resume:**
-   - **Role:** *IT Administrator — Endpoint Security & Access Management* at *SansBornes Aerospace Pvt. Ltd.* (Bengaluru, Mar 2025 – Present).
-   - **Proven Responsibilities:** Sole IT owner for a 15-person aerospace engineering firm managing 20+ endpoints, Active Directory, Group Policy, RBAC, least privilege, joiner/mover/leaver provisioning/deprovisioning, patching, antivirus, LAN/Wi-Fi, DNS, DHCP, firewall rules, backups, and audit-ready documentation.
-2. **Proven Security Operations Practice:**
-   - **Wazuh SIEM/EDR Lab:** Kali Linux, Ubuntu Server, Wazuh agent deployment, SSH brute force simulation, escalation notes.
-   - **LetsDefend Simulated SOC:** 30+ simulated phishing, endpoint, and anomalous login alerts; 4 formal incident reports (3 true positive, 1 false positive) with VirusTotal and URLScan validation.
-   - **Forage Simulations:** Mastercard Cyber (phishing awareness) and Deloitte Cyber (web log pattern analysis).
-3. **Validated Credentials & Flexibility:**
-   - **Google Cybersecurity Professional Certificate** (Coursera, 2026).
-   - **Google Data Analytics Certificate** (Coursera, 2023).
-   - Based in **Hyderabad / Bengaluru**, immediate joiner, and explicitly **comfortable with 24x7 rotational shifts**.
+A structured, battle-tested career transition roadmap designed specifically for **designers (UI/UX, visual, product, graphic) and non-technical career switchers** to systematically learn cybersecurity, build an unassailable hands-on proof-of-work portfolio, and **conquer the technical scenario-based interview stage** in India.
 
 ---
 
-## 2. The 3 Fastest Job Targets (Hyderabad & Bengaluru)
-
-| Target Role | Why You Are an Immediate Match | Target Employers (Hyd / Blr) | Expected Salary (India) | Time to Placement |
-| :--- | :--- | :--- | :--- | :--- |
-| **1. IAM Operations Analyst / Access Governance Associate** *(Fastest & Highest Fit)* | You are **already performing user lifecycle management** (joiner/mover/leaver, provisioning, deprovisioning, RBAC, Active Directory, least privilege) at SansBornes Aerospace. | Microland, Grant Thornton, HCLTech, Caterpillar, i-Admin, Mattel, PepsiCo, Deloitte, Cognizant | **₹5.0 – ₹8.5 LPA** | **3 to 6 Weeks** |
-| **2. L1 SOC Analyst / Incident Triage Analyst** | You have real IT Admin infrastructure experience + Wazuh lab + LetsDefend 30+ alert reports + Google Cyber Cert + open to 24x7 rotational shifts. | Revantage, Informica, UST, Zelis, Sequretek, Inspira Enterprise, Netenrich, MoonPay, Wipro CyberShield | **₹4.5 – ₹7.5 LPA** | **4 to 8 Weeks** |
-| **3. Product Designer — Cyber / Enterprise SaaS** *(The High-Salary Hybrid Play)* | You have 3+ years of elite UI/UX design (Figma, research, systems) **PLUS** you actually understand SIEM alerts, IT admin workflows, and security tooling. | Quick Heal/Seqrite, Sequretek, CloudSEK, Zscaler, CrowdStrike, Sophos, BrowserStack | **₹12 – ₹18+ LPA** | **6 to 10 Weeks** |
+## Table of Contents
+1. [The Real Reason Non-Tech Switchers Fail at the Interview Stage](#1-the-real-reason-non-tech-switchers-fail-at-the-interview-stage)
+2. [Translating Design Thinking into Cybersecurity Superpowers](#2-translating-design-thinking-into-cybersecurity-superpowers)
+3. [The Complete 5-Stage Detection & Triage Lab (Windows 11 | Zero Router Access)](#3-the-complete-5-stage-detection--triage-lab-windows-11--zero-router-access)
+4. [Mastering the Technical Scenarios That Screen Candidates Out](#4-mastering-the-technical-scenarios-that-screen-candidates-out)
+   - [Scenario A: Brute Force & Post-Compromise Detection](#scenario-a-brute-force--post-compromise-detection)
+   - [Scenario B: RFC 822 Email Header Forensics & Phishing Triage](#scenario-b-rfc-822-email-header-forensics--phishing-triage)
+   - [Scenario C: The Service Account Trap (Avoiding Self-Inflicted Outages)](#scenario-c-the-service-account-trap-avoiding-self-inflicted-outages)
+   - [Scenario D: Ransomware & EDR Host Isolation (Preserving Memory Artifacts)](#scenario-d-ransomware--edr-host-isolation-preserving-memory-artifacts)
+5. [Windows Event Log Mastery: Beyond Event ID 4625](#5-windows-event-log-mastery-beyond-event-id-4625)
+6. [The 60-Day Step-by-Step Transition & Interview-Readiness Plan](#6-the-60-day-step-by-step-transition--interview-readiness-plan)
+7. [How to Answer: "Why Are You Switching from Design?"](#7-how-to-answer-why-are-you-switching-from-design)
+8. [Repository Structure & Detailed Playbooks](#8-repository-structure--detailed-playbooks)
 
 ---
 
-## 3. Why "Just Viewing Windows Logs" Doesn't Make Sense (And The Real Lab)
+## 1. The Real Reason Non-Tech Switchers Fail at the Interview Stage
 
-Simply opening `eventvwr.msc` and looking at Event ID 4625 is passive theory. In an Indian technical interview for an L1 SOC or SecOps role, interviewers will challenge you:
-> *"Walk me through an alert you investigated from start to finish: How was the attack generated? What telemetry was collected? What rule fired? How did you verify whether it was a True Positive or False Positive? What containment action did you take?"*
+Most designers and non-STEM candidates who transition into cybersecurity successfully clear online multiple-choice courses (such as the Google Cybersecurity Certificate or introductory security modules), but **consistently fail at the technical interview round**.
 
-### The Complete 5-Stage Detection & Triage Lab (100% Free on Windows 11)
+### The 4 Lethal Gaps in Technical Interviews
+
+```
+┌────────────────────────────────────────────────────────┐
+│ Gap 1: Reciting Book Definitions vs. Operational Flow   │
+│ Candidates explain WHAT a concept is, not HOW to triage│
+└──────────────────────────┬─────────────────────────────┘
+                           │
+┌──────────────────────────▼─────────────────────────────┐
+│ Gap 2: The "Surface Log" Illusion                      │
+│ Memorizing Event ID 4625 without knowing Logon Types   │
+│ (Type 2 vs 3 vs 10) or Sub-status codes (0xC000006A)   │
+└──────────────────────────┬─────────────────────────────┘
+                           │
+┌──────────────────────────▼─────────────────────────────┐
+│ Gap 3: The Blast Radius & Production Awareness Trap    │
+│ Recommending destructive containment (locking service  │
+│ accounts or rebooting machines during active attacks)  │
+└──────────────────────────┬─────────────────────────────┘
+                           │
+┌──────────────────────────▼─────────────────────────────┐
+│ Gap 4: Passive Homelabs (No Attack-to-Detection Cycle) │
+│ Merely "viewing" logs instead of generating attacks,   │
+│ tuning SIEM rules, and producing formal incident briefs│
+└────────────────────────────────────────────────────────┘
+```
+
+When an Indian interviewer at an MSSP, Global Capability Center (GCC), or tech company asks a scenario question, they are **not** testing memory. They are evaluating:
+> *"Can this person sit in front of an active SIEM/EDR queue at 2 AM, investigate an alert without panicking, distinguish a true attack from a benign glitch, and take containment steps without crashing our production business services?"*
+
+---
+
+## 2. Translating Design Thinking into Cybersecurity Superpowers
+
+You do not need an engineering degree to be an elite security analyst. In fact, mature cybersecurity operations value the exact cognitive models that designers use daily:
+
+| Design Competency | Equivalent Cybersecurity Superpower | Why Interviewers Value This |
+| :--- | :--- | :--- |
+| **User Journey Mapping & Flows** | **Attack Path & Data Flow Analysis (STRIDE / MITRE ATT&CK)** | Pentesters and threat analysts map how an adversary moves step-by-step from initial phishing click to database exfiltration. |
+| **Edge Cases & Error State Design** | **Abuse Case Analysis & Exploit Modeling** | Designers constantly ask: *"What if the user clicks back twice or enters invalid input?"* Security analysts ask the exact same question to identify business logic flaws and authentication bypasses. |
+| **Cognitive Load & Usability Friction** | **Social Engineering Defense & Human Risk Analysis** | Over 74% of enterprise breaches involve human error (phishing, MFA fatigue). Designers understand human mental models, habituation, and deceptive dark patterns better than pure programmers. |
+| **Design Systems & Component Standards** | **Hardening Baselines & Configuration Auditing (CIS Benchmarks)** | Maintaining a consistent Figma component library requires the exact same structural discipline as enforcing Active Directory Group Policy (GPO) and baseline endpoint hardening. |
+
+---
+
+## 3. The Complete 5-Stage Detection & Triage Lab (Windows 11 | Zero Router Access)
+
+### Why Just "Viewing Windows Logs" Fails in Interviews
+Simply opening `eventvwr.msc` and looking at event IDs is passive and unimpressive. A credible homelab must demonstrate an **end-to-end detection, correlation, and response cycle**:
 
 ```
 [ Attacker: Kali Linux VM ] ──(Hydra / Atomic Red Team)──► [ Target: Windows 11 / Server VM ]
-                                                                       │
-                                                            Sysmon Enhanced Telemetry
-                                                            (Process Create, Network Conn)
-                                                                       │
-                                                                 Winlogbeat / Wazuh Agent
-                                                                       │
-                                                                       ▼
-                                                            [ Detection Engine: Wazuh / Splunk ]
-                                                                       │
-                                                            Alert Correlation & Rule Tuning
-                                                                       │
-                                                                       ▼
-                                                            [ SOC Triage & Containment Report ]
+                                                                      │
+                                                           Sysmon Enhanced Telemetry
+                                                           (Process Create, Network Conn)
+                                                                      │
+                                                                Winlogbeat / Wazuh Agent
+                                                                      │
+                                                                      ▼
+                                                           [ Detection Engine: Wazuh / Splunk ]
+                                                                      │
+                                                           Alert Correlation & Rule Tuning
+                                                                      │
+                                                                      ▼
+                                                           [ SOC Triage & Containment Report ]
 ```
 
-#### Stage 1: The Telemetry Pipeline (Sysmon + Windows Event Viewer)
-* **The Flaw of Default Windows Logging:** Default Windows Security logs only tell you *who* logged in (4624/4625), but not *what process* ran or what external IP it connected to.
-* **The Fix:** Download and install Microsoft's free **Sysmon (System Monitor)** with the industry-standard **SwiftOnSecurity configuration**:
-  * **Event ID 1:** Process Creation (captures the full command line, parent process, hashes).
-  * **Event ID 3:** Network Connection (captures source/destination IP, port, initiating process).
-  * **Event ID 11:** File Create (detects ransomware or dropped malware).
+### Lab Setup (Isolated Host-Only Virtual Switch — Zero Router Access Needed)
+Modern hypervisors (VMware Workstation Pro or Oracle VirtualBox) provide a **Host-Only virtual switch** created entirely inside your PC's memory. The VMs communicate securely with each other and your host, completely isolated from your home Wi-Fi router.
 
-#### Stage 2: Attack Simulation (Kali Linux Host-Only VM)
-* Use your Kali VM inside VirtualBox / VMware Workstation Pro (Host-Only Network):
-  1. **Brute Force Simulation:** Run `hydra -l administrator -P /usr/share/wordlists/rockyou.txt ssh://<Linux_IP>` or RDP brute force against Windows.
-  2. **LOLBAS Execution (Living off the Land):** Run encoded PowerShell commands on the target machine simulating an attacker downloading a payload:
-     ```powershell
-     powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -Command "Write-Output 'Simulated Malware Trigger'"
-     ```
+#### Stage 1: Installing Enhanced Telemetry (Sysmon)
+Default Windows logs do not capture process command-line arguments or parent processes.
+1. Download Microsoft Sysinternals **Sysmon** on your target Windows VM.
+2. Download the industry-standard **SwiftOnSecurity Sysmon configuration XML**.
+3. Install via Administrator command prompt:
+   ```cmd
+   sysmon.exe -accepteula -i sysmonconfig-export.xml
+   ```
+4. **What this enables:**
+   * **Event ID 1:** Process Creation (captures the full command line, parent process name, SHA-256 hash).
+   * **Event ID 3:** Network Connection (captures destination IP, port, and the exact executable that initiated it).
+   * **Event ID 11:** File Creation (captures dropped payloads and ransomware staging).
 
-#### Stage 3: Ingestion & Alert Rule Tuning in Wazuh / Splunk
-* In your Wazuh Manager:
-  * Check the alert trigger under `/var/ossec/logs/alerts/alerts.json`.
-  * Open `/var/ossec/etc/rules/local_rules.xml` and write a custom detection rule (e.g., alert level 10 when 5 failed logons occur in 60 seconds from the same IP).
-* In Splunk (Free 500MB/day license):
-  * Write the SPL search query:
-    ```spl
-    index=windows (EventCode=4625 OR EventCode=1)
-    | stats count by user, src_ip, Image, CommandLine
-    | where count > 3
-    ```
+#### Stage 2: Attack Simulation (From Kali VM)
+Simulate realistic adversary behaviors:
+* **Attack Drill 1 (SSH / RDP Brute Force):**
+  ```bash
+  hydra -l administrator -P /usr/share/wordlists/rockyou.txt ssh://<Linux_Target_IP>
+  ```
+* **Attack Drill 2 (Living off the Land / LOLBAS Payload Execution):**
+  Simulate an attacker using encoded PowerShell on the Windows target:
+  ```powershell
+  powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -Command "Write-Output 'Simulated Threat Activity'"
+  ```
 
-#### Stage 4: Triage, Indicator Enrichment & Report Writing
-* Pull the suspicious IP / domain / hash and enrich it using **VirusTotal, URLScan, and AbuseIPDB**.
-* Determine: **True Positive** (authorized test) vs **False Positive** (benign software glitch).
-* Document in an incident report following the **NIST SP 800-61** lifecycle:
-  1. *Detection & Analysis:* Summary of alert, affected host, user account, timestamp.
-  2. *Containment:* Host isolation, firewall rule block (`ufw deny from <Attacker_IP>`), account lockout.
-  3. *Remediation & Lessons Learned:* Enforce account lockout threshold via Group Policy (GPO); enable number-matching MFA.
+#### Stage 3: Ingestion & Custom Rule Tuning (Wazuh / Splunk)
+1. **Wazuh Manager:** Inspect `/var/ossec/logs/alerts/alerts.json`.
+2. **Rule Tuning:** Edit `/var/ossec/etc/rules/local_rules.xml` to create an aggregated rule: alert Level 10 when 5 failed logons occur within 60 seconds from the same IP address.
+3. **Splunk Search Processing Language (SPL):** In your free local Splunk instance, search:
+   ```spl
+   index=windows (EventCode=4625 OR EventCode=1)
+   | stats count by user, src_ip, Image, CommandLine
+   | where count > 3
+   ```
+
+#### Stage 4: Triage & Indicator Enrichment
+* Extract the external IP, domain, and hash.
+* Enrich via free tools: **VirusTotal**, **URLScan.io**, and **AbuseIPDB**.
+* Confirm whether the event is a **True Positive** (authorized red team drill) or **False Positive**.
+
+#### Stage 5: Containment & Incident Documentation
+* Execute containment: block the IP via local firewall (`sudo ufw deny from <Attacker_IP>`) or isolate the VM.
+* Write a professional incident report following **NIST SP 800-61** with **MITRE ATT&CK mapping (T1110.001 - Password Guessing)**. Publish this report to your public GitHub portfolio.
 
 ---
 
-## 4. The 30-Day Execution Plan to Land Offers
+## 4. Mastering the Technical Scenarios That Screen Candidates Out
 
-### Week 1: Resume Calibration (IAM & SOC Focus)
-* Update your resume headline to:
-  `IT Systems & Security Administrator | Identity & Access Management (IAM), Endpoint Security & SOC Analysis`
-* Put your current role at **SansBornes Aerospace** front and center:
-  * Emphasize: *Active Directory user lifecycle (joiner/mover/leaver), RBAC, GPO, patch management, endpoint security, firewall administration.*
-  * Feature your **Wazuh & LetsDefend investigations** as bulleted proof of work.
+### Scenario A: Brute Force & Post-Compromise Detection
+* **The Interview Question:** *"You see an alert for 50 failed logons within 3 minutes on user 'Rahul', followed by a successful logon. What do you do?"*
+* **The Winning Response:**
+  1. **Treat as Likely Compromise:** Treat the successful login as an active compromise resulting from credential guessing.
+  2. **Inspect Sub-fields:** Check Event ID 4625 for **Logon Type** (Type 10 = RDP, Type 3 = SMB/Network) and Sub-status code (`0xC000006A` = wrong password for existing account).
+  3. **Audit Post-Auth Activity:** The primary task is determining what happened **after** the successful Event ID 4624. Check Sysmon Event ID 1 for suspicious child processes (`whoami`, `net user`, `cmd.exe`) and anomalous outbound network connections (Sysmon Event ID 3).
+  4. **Containment:** Revoke all active sessions in Azure AD / Entra ID, force a password reset, temporarily disable the account, and block the external source IP on the firewall.
+  5. **Persistence Check:** Check for newly created scheduled tasks (Event ID 4698) or new local users (Event ID 4720).
 
-### Week 2: Build the GitHub "Proof-of-Work" Lab Repository
-* Clean up your GitHub repository (`SaiKaligotla/design-to-cyber`):
-  * Publish 2 detailed markdown writeups:
-    1. *Wazuh SIEM Deployment & SSH Brute-Force Detection Walkthrough* (with screenshots, log snippets, and local rule configurations).
-    2. *LetsDefend Phishing & Endpoint Triage Case Study* (detailing your 4 formal incident reports and IOC checks).
-* Add your GitHub link directly beneath your contact info on your resume.
+---
 
-### Weeks 3–4: Targeted Application Blitz (Hyderabad & Bengaluru)
-* Apply to 15–20 openings per week on **LinkedIn India, Instahyre, and Foundit**:
-  * **Search Query 1:** `"IAM Analyst" OR "Identity Access Management" (Hyderabad OR Bengaluru)`
-  * **Search Query 2:** `"L1 SOC" OR "Security Operations Analyst" (Hyderabad OR Bengaluru)`
-  * **Search Query 3:** `"IT Security Administrator"`
-* Reach out to recruiters and team leads directly on LinkedIn:
-  > *"Hi [Name], I'm currently the sole IT Administrator at SansBornes Aerospace managing Active Directory, RBAC, and endpoint security. I have hands-on Wazuh and LetsDefend SOC triage experience, hold the Google Cybersecurity Certificate, and am based in Hyderabad/Bengaluru available for immediate joining across 24x7 rotational shifts. Would love to be considered for open IAM / SOC Analyst roles on your team: [Resume/GitHub Link]."*
+### Scenario B: RFC 822 Email Header Forensics & Phishing Triage
+* **The Interview Question:** *"An employee forwards a suspicious email claiming their salary slip is attached. How do you analyze it?"*
+* **The Winning Response:**
+  1. **Never Click:** Open the email in an isolated sandbox and extract the raw RFC 822 headers.
+  2. **Sender Alignment:** Compare the header `From:` address (display name) with the envelope sender (`Return-Path:`). Phishing attacks frequently spoof the display name while the `Return-Path` points to an attacker-controlled domain.
+  3. **Inspect Authentication Flags:**
+     * **SPF (Sender Policy Framework):** Verifies if the sending server IP is authorized by the domain's DNS TXT record.
+     * **DKIM (DomainKeys Identified Mail):** Verifies the email body and headers were cryptographically signed and not tampered with in transit.
+     * **DMARC (Domain-based Message Authentication):** Verifies alignment between SPF/DKIM and the `From:` header (`p=reject`, `p=quarantine`, or `p=none`).
+  4. **Inspect Received Hops:** Trace the `Received:` headers chronologically from bottom to top to identify the originating server IP and Mail Transfer Agent (MTA).
+  5. **Defanged Enrichment:** Defang URLs (`hxxps[://]...`) and check them on URLScan.io and VirusTotal. If an attachment exists, calculate its SHA-256 hash in terminal (`sha256sum attachment.pdf`) and search malware databases.
+  6. **Enterprise Scope:** Query the mail gateway (Microsoft Defender for Office 365 / Mimecast) using the `Message-ID` to purge the email from all employee inboxes.
+
+---
+
+### Scenario C: The Service Account Trap (Avoiding Self-Inflicted Outages)
+* **The Interview Question:** *"An alert triggers for 500 failed logons in 5 minutes on `svc_sap_sync`. Do you immediately disable the account?"*
+* **The Winning Response:**
+  > *"No. Immediately locking a critical service account can crash enterprise production operations (e.g. database replication or ERP systems), causing a self-inflicted Denial of Service.
+  > 
+  > In corporate environments, over 80% of service account failure surges are caused by **internal IT password rotations**: an admin changed the service account password in Active Directory, but forgot to update a background script or scheduled task on one server, which continuously retries with stale credentials.
+  > 
+  > I check the source IP. If it is an internal application server, I identify the process and alert the application owner. If the source IP is untrusted or external, I contain the **source host** via firewall rules or host isolation, neutralizing the attack while keeping the production service operational."*
+
+---
+
+### Scenario D: Ransomware & EDR Host Isolation (Preserving Memory Artifacts)
+* **The Interview Question:** *"An alert flags an endpoint running `vssadmin delete shadows /all /quiet`. What is your immediate action?"*
+* **The Winning Response:**
+  1. **Recognize Pre-Ransomware Indicator:** Adversaries delete Volume Shadow Copies to prevent system recovery before deploying ransomware encryption.
+  2. **EDR Host Isolation (DO NOT REBOOT):** Immediately isolate the endpoint from the network using EDR. **Never power down or reboot the computer.** Powering down destroys volatile memory (RAM), which contains unencrypted encryption keys, running malware process injections, and live network connections necessary for forensic analysis.
+  3. **Trace Process Lineage:** Inspect the parent process in Sysmon/EDR: Did `powershell.exe` or `cmd.exe` spawn from an Office document or an unknown binary?
+  4. **Fleet Scoping:** Search the SIEM/EDR across all enterprise endpoints for that executable hash to identify lateral movement.
+
+---
+
+## 5. Windows Event Log Mastery: Beyond Event ID 4625
+
+To pass Indian SOC/SecOps interviews, you must know the exact **Logon Types** and **Sub-Status Failure Codes**:
+
+### Core Windows Logon Types
+* **Type 2 (Interactive):** Physical keyboard/console login on the local machine.
+* **Type 3 (Network):** Connection over the network (accessing an SMB file share, `PsExec`, or mapping a drive). Central to lateral movement investigations.
+* **Type 4 (Batch):** Scheduled task executing under a specific service account.
+* **Type 5 (Service):** Windows Service started by the Service Control Manager.
+* **Type 10 (RemoteInteractive / RDP):** Remote Desktop Protocol connection. Crucial for detecting external brute-force attacks against internet-facing endpoints.
+
+### Core Failure Sub-Status Codes (Inside Event 4625)
+* **`0xC000006A` (Bad Password):** The username exists in the domain/workgroup, but the password was incorrect. (Indicates brute force or password spraying).
+* **`0xC0000064` (User Name does not exist):** The username entered does not exist. (Indicates user enumeration reconnaissance).
+* **`0xC0000234` (Account Locked Out):** The account has exceeded the lockout threshold configured in Group Policy.
+
+---
+
+## 6. The 60-Day Step-by-Step Transition & Interview-Readiness Plan
+
+```
+┌────────────────────────────────────────────────────────┐
+│ Weeks 1–2: Protocol & Operating System Internals       │
+│ TCP/IP, DNS, HTTP/S, Windows Event Logs, Linux CLI     │
+└──────────────────────────┬─────────────────────────────┘
+                           │
+┌──────────────────────────▼─────────────────────────────┐
+│ Weeks 3–4: Hands-On Attack-to-Detection Lab Pipeline   │
+│ Install Sysmon, simulate brute force with Kali, tune   │
+│ custom detection rules in Wazuh / Splunk               │
+└──────────────────────────┬─────────────────────────────┘
+                           │
+┌──────────────────────────▼─────────────────────────────┐
+│ Weeks 5–6: Scenario Simulation & Incident Reports      │
+│ Master the 6 core scenarios; publish 2 formal incident │
+│ reports with MITRE ATT&CK mapping to GitHub            │
+└──────────────────────────┬─────────────────────────────┘
+                           │
+┌──────────────────────────▼─────────────────────────────┐
+│ Weeks 7–8: Targeted Applications & Mock Interviews     │
+│ Apply to IAM Analyst & L1 SOC roles in Hyd / Blr;      │
+│ rehearse the "Designer-to-Cyber" script                │
+└────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 7. How to Answer: "Why Are You Switching from Design?"
+
+When interviewers ask: *"You have a design background and a non-engineering degree. Why are you switching to cybersecurity?"*
+
+**The Exact Script to Deliver:**
+> *"That's a very fair question, but in practice, design and cybersecurity solve the exact same core problem: **human behavior, cognitive friction, and system usability**.
+> 
+> According to global breach reports, over 74% of enterprise security incidents involve human error—phishing, social engineering, credential reuse, and configuration mistakes. Attackers rarely 'hack' firewalls; they manipulate human mental models and habituation.
+> 
+> In my design career, my entire job was analyzing user journeys, anticipating where users make mistakes, and designing workflows to prevent friction. When I transitioned into IT administration and security operations, that exact analytical mindset translated directly into **threat modeling, identifying abuse cases, and investigating anomaly alerts**. 
+> 
+> Rather than viewing security as disconnected command lines, I look at security telemetry as a sequence of human and automated behaviors. Combined with my hands-on experience managing Active Directory, firewall rules, and endpoint patching at SansBornes Aerospace, and investigating real-world alerts in my Wazuh SIEM lab and LetsDefend, I bring both operational discipline and human risk analysis to the team."*
+
+---
+
+## 8. Repository Structure & Detailed Playbooks
+
+This repository is maintained on branch `arena/c7ec6ca7-design-to-cyber` and contains dedicated guides:
+* **`README.md`** (This file): Master roadmap, lab blueprints, and core concepts.
+* **`INTERVIEW_MASTER_PLAYBOOK.md`**: Word-for-word answer scripts, deep-dive scenario triage frameworks, and Windows event log reference cards.
+* **`FAST_TRACK_SPRINT.md`**: 90-day application and lateral transition strategy for Hyderabad and Bengaluru tech hubs.
